@@ -10,7 +10,7 @@ objects and storing them.
 Class <b>Ticket:</b> represents the ticket object
 
 
-<b>FlightCodes</b>
+<b>FlightCodes</b><br>
 FlightCodes have a fixed structure:
 1) The code for the operating company (length:2)
 2) CityCode A (length:3)
@@ -25,7 +25,7 @@ TLL – Tallinn
 BER - Berlin
 
 
-<b>Ticket price</b>
+<b>Ticket price</b><br>
 There are multiple factors involved for setting the price. All of them make the base price x times more
 expensive and should be checked every time a ticket is sold. The factors are checked and applied (if
 necessary) to the base price in the same order as listed here.
@@ -52,6 +52,6 @@ Friday price: 100*0.15 + 100=115
 Occupancy rate price: 149.5 * 0.17 + 149.5 = 168.94
 Final price is: 168.94
 
-<b>Ticket type</b>
+<b>Ticket type</b><br>
 1- Business class ticket
 2- Economy class ticket
